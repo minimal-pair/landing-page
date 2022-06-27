@@ -1,14 +1,12 @@
 body {
     margin: 0;
     padding: 0;
-    /*border: red solid 3px;*/
     font-family: Helvetica, Arial, sans-serif;
 }
 
-header, .hero {
+header, .hero, footer {
     background-color: #1F2937;
     color: #F9FAF8;
-    /*border: red solid 3px;*/
 }
 
 header {
@@ -20,8 +18,7 @@ header {
 
 header p {
     font-size: 24px;
-    border: red solid 3px;
-    margin: 3px;
+    margin: 5px;
     color: #F9FAF8
 }
 
@@ -87,7 +84,7 @@ a:visited {
 #squares {
     display: flex;
     justify-content: center;
-    padding: 15px 16vw 60px 16vw;
+    padding: 15px 19vw 60px 19vw;
 }
 
 .info {
@@ -112,7 +109,8 @@ a:visited {
 
 #quote {
     background-color: #E5E7EB;
-    padding: 60px 16vw;
+    padding: 60px 19vw;
+    margin: 0;
     display: flex;
     flex-direction: column;
 }
@@ -128,4 +126,49 @@ a:visited {
     font-weight: 700;
     font-size: 24px;
     text-align: right;
+}
+
+#sign-up-section {
+    padding: 80px 12vw;
+}
+
+#sign-up {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 5px;
+    padding: 2.5vw 7vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#sign-up-text h4 {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0;
+}
+
+#sign-up-text p {
+    font-size: 16px;
+    margin: 0;
+    font-weight: 300;
+}
+
+#sign-up button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: #F9FAF8 3px solid;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: .25em 2em; 
+}
+
+footer {
+    padding: 25px;
+}
+
+footer p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
